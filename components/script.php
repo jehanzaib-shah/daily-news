@@ -43,6 +43,21 @@
         var mobileSubMenu = $('.header-nav');
         var placeMobileSubMenu = $('.mobile-submenu-wrapper');
         placeMobileSubMenu.html(mobileSubMenu.html());
+
+        var bookDetailHeader = $('.book-details-header');
+        var mobileBookViewHeader = $('.mobile-book-header');
+        mobileBookViewHeader.html(bookDetailHeader.html());
+        var bookDetailImg = $('.left');
+        var bookDetailButton = $('.book-details-mid');
+        var mobileViewBookMain = $('.mobile-book-main');
+        mobileViewBookMain.html(bookDetailImg.html());
+        mobileViewBookMain.append(bookDetailButton.html());
+        
+        var bookDetailFooter = $('.book-details-footer');
+        var mobileViewBookFooter = $('.mobile-book-footer');
+        mobileViewBookFooter.html(bookDetailFooter.html());
+
+
         $(".main-event").click(function(e) {
             var tagName = e.target.tagName;
             if (tagName == "SPAN" || tagName == "span") {

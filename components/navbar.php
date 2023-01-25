@@ -1,44 +1,7 @@
 <header>
-	<section class="topbar-header mobile-on">
-		<div class="container ">
-			<div class="row justify-content-between text-center header-brand">
-				<div class="col-md-4 d-grid header-news-date">
-					<div class="daily-date display-6 notranslate">
-						<!-- <?php echo date('D, M d, Y'); ?> -->
-						<span id="date-new"></span>
-					</div>
-				</div>
-				<div class="col-md-4">
-				</div>
-				<div class="col-md-4 main-logo">
-					<a href="index.php" style="font-size: 35px;" target="_self"><img src="assets/img/newspaper logo.png" class="logo-zoom" style="width: 160px;border-radius: 10px;"></a>
-				</div>
-
-			</div>
-
-		</div>
-		<div class="mobile-hide mobile-sign">
-
-			<button type="button" class="btn btn-primary btn-rounded "><a href="user-login.php">Sign In</a></button>
-		
-		</div>
-
-		<div class="mobile-menu mobile-hide" id="mobile-menu-btn">
-			<div class="bar1"></div>
-			<div class="bar2"></div>
-			<div class="bar3"></div>
-		</div>
-	</section>
 
 
-	<aside class="mobile-hide site-off">
-		<div class="mobile-container">
-			<div class="mobile-submenu-wrapper">
 
-			</div>
-		</div>
-
-	</aside>
 	<section class="header-bottom desktop-hide">
 		<div class="header-nav">
 			<div class="sign-btn">
@@ -46,7 +9,7 @@
 			</div>
 			<div class="nav-container">
 
-				<ul id="is-active"class="row main-event">
+				<ul id="is-active" class="row main-event">
 					<li class="has-child ">
 						<span>
 							<a href="#"><i class="fa-solid fa-caret-down" style="font-size: 10px;position: relative;top: -3px;left: -3px;"></i>Countries</a>
@@ -63,26 +26,22 @@
 									</span>
 									<div class="newspaper-sub-menu">
 										<ul>
-											<li><i class="fa-regular fa-star fa-lg"></i><a href="" target="_blank"> Arab Times</a>
-
-											</li>
-											<li><i class=" fa-regular fa-star fa-lg"></i><a href="#"> Al Seyassah</a></li>
-											<li><i class=" fa-regular fa-star fa-lg"></i><a href="#"> Al Rai</a></li>
-											<li><i class=" fa-regular fa-star fa-lg"></i><a href="#"> Alwasat</a></li>
-											<li><i class=" fa-regular fa-star fa-lg"></i><a href="#"> Al-Anba</a></li>
-											<li><i class=" fa-regular fa-star fa-lg"></i><a href="#"> Al-Sabah</a></li>
-											<li><i class=" fa-regular fa-star fa-lg"></i><a href="#"> Al-Watan</a></li>
-											<li><i class=" fa-regular fa-star fa-lg"></i><a href="#"> Annahar</a></li>
-											<li><i class=" fa-regular fa-star fa-lg"></i><a href="#"> Al-Jarida</a></li>
-											<li><i class=" fa-regular fa-star fa-lg"></i><a href="#"> Al Qabas</a></li>
-											<li><i class=" fa-regular fa-star fa-lg"></i><a href="#"> AlRay AlAam</a></li>
-											<li><i class=" fa-regular fa-star fa-lg"></i><a href="#"> Alam Al Yawm</a></li>
-											<li><i class=" fa-regular fa-star fa-lg"></i><a href="#"> Al-Watan Daily</a></li>
-											<li><i class=" fa-regular fa-star fa-lg"></i><a href="#"> Awan</a></li>
-											<li><i class=" fa-regular fa-star fa-lg"></i><a href="#"> Khaleej Times</a></li>
-											<li><i class=" fa-regular fa-star fa-lg"></i><a href="#"> Assawt</a></li>
-											<li><i class=" fa-regular fa-star fa-lg"></i><a href="#"> Gulf Daily News</a></li>
-										</ul>
+										<li><i class="fa-regular fa-star fa-lg"></i><a href="https://www.w3schools.com/tags/att_a_target.asp"> Kuwait Times</a></li>
+										<li><i class="fa-regular fa-star fa-lg"></i><a href="http://www.arabtimesonline.com/news/"> Arab Times</a></li>
+										<li><i class="fa-regular fa-star fa-lg"></i><a href="http://www.al-seyassah.com/"> Al Seyassah</a></li>
+										<li><i class="fa-regular fa-star fa-lg"></i><a href="https://alrai.com/"> Al Rai</a></li>
+										<li><i class="fa-regular fa-star fa-lg"></i><a href="http://www.alwasat.com.kw/"> Alwasat</a></li>
+										<li><i class="fa-regular fa-star fa-lg"></i><a href="https://www.alanba.com.kw/newspaper/"> Al-Anba</a></li>
+										<li><i class="fa-regular fa-star fa-lg"></i><a href="http://www.alsabahpress.com/"> Al-Sabah</a></li>
+										<li><i class="fa-regular fa-star fa-lg"></i><a href="https://www.al-watan.com/"> Al-Watan</a></li>
+										<li><i class="fa-regular fa-star fa-lg"></i><a href="https://www.annahar.com/"> Annahar</a></li>
+										<li><i class="fa-regular fa-star fa-lg"></i><a href="https://www.aljarida.com/"> Al-Jarida</a></li>
+										<li><i class="fa-regular fa-star fa-lg"></i><a href="https://www.alqabas.com/"> Al Qabas</a></li>
+										<li><i class="fa-regular fa-star fa-lg"></i><a href="https://alrai.com/"> AlRay AlAam</a></li>
+										<li><i class="fa-regular fa-star fa-lg"></i><a href="https://alalamelyoum.co/"> Alam Al Yawm</a></li>
+										<li><i class="fa-regular fa-star fa-lg"></i><a href="https://www.awanmedia.net/"> Awan</a></li>
+										<li><i class="fa-regular fa-star fa-lg"></i><a href="https://www.khaleejtimes.com/kuwait-city"> Khaleej Times</a></li>
+										<li><i class="fa-regular fa-star fa-lg"></i><a href="https://www.gdnonline.com/index.html"> Gulf Daily News</a></li>
 									</div>
 
 								</li>
@@ -90,19 +49,17 @@
 									</span>
 									<div class="newspaper-sub-menu">
 										<ul>
-											<li><i class="fa-regular fa-star fa-lg"></i><a href="#">Al-Bilad</a></li>
-											<li><i class="fa-regular fa-star fa-lg"></i><a href="#">Al Eqtisadiah</a></li>
-											<li><i class="fa-regular fa-star fa-lg"></i><a href="#">Al Hayat</a></li>
-											<li><i class="fa-regular fa-star fa-lg"></i><a href="#">Al Jazirah</a></li>
-											<li><i class="fa-regular fa-star fa-lg"></i><a href="#">Al Madina</a></li>
-											<li><i class="fa-regular fa-star fa-lg"></i><a href="#">Al Nadwa</a></li>
-											<li><i class="fa-regular fa-star fa-lg"></i><a href="#">Al Riyadeyyah</a></li>
-											<li><i class="fa-regular fa-star fa-lg"></i><a href="#">Al Riyadh</a></li>
-											<li><i class="fa-regular fa-star fa-lg"></i><a href="#">al watan</a></li>
-											<li><i class="fa-regular fa-star fa-lg"></i><a href="#">al yaum</a></li>
-											<li><i class="fa-regular fa-star fa-lg"></i><a href="#">makkah news paper</a></li>
-											<li><i class="fa-regular fa-star fa-lg"></i><a href="#">asharq al awsat</a></li>
-											<li><i class="fa-regular fa-star fa-lg"></i><a href="#">okaz</a></li>
+										<li><i class="fa-regular fa-star fa-lg"></i><a href="https://www.albiladpress.com/">Al-Bilad</a></li>
+										<li><i class="fa-regular fa-star fa-lg"></i><a href="https://www.aleqt.com/">Al Eqtisadiah</a></li>
+										<li><i class="fa-regular fa-star fa-lg"></i><a href="https://www.aljazeera.net/">Al Jazirah</a></li>
+										<li><i class="fa-regular fa-star fa-lg"></i><a href="https://www.al-madina.com/">Al Madina</a></li>
+										<li><i class="fa-regular fa-star fa-lg"></i><a href="https://arriyadiyah.com/">Al Riyadeyyah</a></li>
+										<li><i class="fa-regular fa-star fa-lg"></i><a href="https://www.alriyadh.com/">Al Riyadh</a></li>
+										<li><i class="fa-regular fa-star fa-lg"></i><a href="https://www.al-watan.com/">al watan</a></li>
+										<li><i class="fa-regular fa-star fa-lg"></i><a href="https://www.alyaum.com/">al yaum</a></li>
+										<li><i class="fa-regular fa-star fa-lg"></i><a href="https://makkahnewspaper.com/">makkah</a></li>
+										<li><i class="fa-regular fa-star fa-lg"></i><a href="https://aawsat.com/">asharq al awsat</a></li>
+										<li><i class="fa-regular fa-star fa-lg"></i><a href="https://www.okaz.com.sa/">okaz</a></li>
 										</ul>
 									</div>
 								</li>
@@ -111,14 +68,9 @@
 									<div class="newspaper-sub-menu">
 										<ul>
 
-											<li><i class="fa-regular fa-star fa-lg"></i><a href="#">Al Ray Lel Shaab</a></li>
-											<li><i class="fa-regular fa-star fa-lg"></i><a href="#">Al Kora wal Malaeb</a></li>
-											<li><i class="fa-regular fa-star fa-lg"></i><a href="#">Al Mess</a></li>
-											<li><i class="fa-regular fa-star fa-lg"></i><a href="#">Aqedaty</a></li>
-											<li><i class="fa-regular fa-star fa-lg"></i><a href="#">Egyptian Gazette in English</a></li>
-											<li><i class="fa-regular fa-star fa-lg"></i><a href="#">Le Progrès Egyptien in French</a></li>
-											<li><i class="fa-regular fa-star fa-lg"></i><a href="#">Shashaty</a></li>
-
+										<li><i class="fa-regular fa-star fa-lg"></i><a href="https://almessa.gomhuriaonline.com/">Al Mess</a></li>
+										<li><i class="fa-regular fa-star fa-lg"></i><a href="https://egyptian-gazette.com/">Egyptian Gazette in English</a></li>
+	
 										</ul>
 
 									</div>
@@ -129,22 +81,22 @@
 									<div class="newspaper-sub-menu">
 										<ul>
 
-											<li> <i class="fa-regular fa-star fa-lg"></i><a href="#"> Gulf News</a></li>
-											<li> <i class="fa-regular fa-star fa-lg"></i><a href="#"> Khaleej Times</a></li>
-											<li> <i class="fa-regular fa-star fa-lg"></i><a href="#"> Al Khaleej</a></li>
-											<li> <i class="fa-regular fa-star fa-lg"></i><a href="#"> Business24-7</a></li>
-											<li> <i class="fa-regular fa-star fa-lg"></i><a href="#"> Emarat Al Youm</a></li>
-											<li> <i class="fa-regular fa-star fa-lg"></i><a href="#"> Gulf Today</a></li>
-											<li> <i class="fa-regular fa-star fa-lg"></i><a href="#"> Akhbar Al Arab</a></li>
-											<li> <i class="fa-regular fa-star fa-lg"></i><a href="#"> Al Fajr</a></li>
-											<li> <i class="fa-regular fa-star fa-lg"></i><a href="#"> Al-Bayan</a></li>
-											<li> <i class="fa-regular fa-star fa-lg"></i><a href="#"> Al-Ittihad</a></li>
-											<li> <i class="fa-regular fa-star fa-lg"></i><a href="#"> Al Wahda</a></li>
-											<li> <i class="fa-regular fa-star fa-lg"></i><a href="#"> XPRESS</a></li>
-											<li> <i class="fa-regular fa-star fa-lg"></i><a href="#"> 7days</a></li>
-											<li> <i class="fa-regular fa-star fa-lg"></i><a href="#"> Bayane Al Yaoume</a></li>
-											<li> <i class="fa-regular fa-star fa-lg"></i><a href="#"> Al Ain Times News</a></li>
 
+											<li> <i class="fa-regular fa-star fa-lg"></i><a href="https://gulfnews.com/"> Gulf News</a></li>
+											<li> <i class="fa-regular fa-star fa-lg"></i><a href="https://www.khaleejtimes.com/"> Khaleej Times</a></li>
+											<li> <i class="fa-regular fa-star fa-lg"></i><a href="https://www.alkhaleej.ae/"> Al Khaleej</a></li>
+											<li> <i class="fa-regular fa-star fa-lg"></i><a href="https://www.news24.com/fin24"> Business24-7</a></li>
+											<li> <i class="fa-regular fa-star fa-lg"></i><a href="https://www.emaratalyoum.com/"> Emarat Al Youm</a></li>
+											<li> <i class="fa-regular fa-star fa-lg"></i><a href="https://www.gulftoday.ae/"> Gulf Today</a></li>
+											<li> <i class="fa-regular fa-star fa-lg"></i><a href="https://www.alarab.com/"> Akhbar Al Arab</a></li>
+											<li> <i class="fa-regular fa-star fa-lg"></i><a href="https://www.alfajr-news.net/"> Al Fajr</a></li>
+											<li> <i class="fa-regular fa-star fa-lg"></i><a href="https://www.albayan.ae/"> Al-Bayan</a></li>
+											<li> <i class="fa-regular fa-star fa-lg"></i><a href="https://www.alittihad.ae/"> Al-Ittihad</a></li>
+											<li> <i class="fa-regular fa-star fa-lg"></i><a href="https://alwahdanews.ae/"> Al Wahda</a></li>
+											<li> <i class="fa-regular fa-star fa-lg"></i><a href="https://gulfnews.com/uae/xpress"> XPRESS</a></li>
+											<li> <i class="fa-regular fa-star fa-lg"></i><a href="https://gulfnews.com/uae/7days-newspaper-website-closes-down-1.1950056"> 7days</a></li>
+											<li> <i class="fa-regular fa-star fa-lg"></i><a href="https://bayanealyaoume.press.ma/"> Bayane Al Yaoume</a></li>
+											<li> <i class="fa-regular fa-star fa-lg"></i><a href="https://alaintimes.com/en/category/news-al-ain/"> Al Ain Times News</a></li>
 										</ul>
 									</div>
 								</li>
@@ -602,4 +554,43 @@
 
 		</div>
 	</section>
+	<section class="topbar-header mobile-on">
+		<div class="mobile-hide mobile-sign">
+
+			<button type="button" class="btn btn-primary btn-rounded "><a href="user-login.php">Sign In</a></button>
+
+		</div>
+		<div class="container ">
+			<div class="row justify-content-between text-center header-brand">
+				<div class="col-md-4 d-grid header-news-date">
+					<div class="daily-date display-6 notranslate">
+						<!-- <?php echo date('D, M d, Y'); ?> -->
+						<span id="date-new"></span>
+					</div>
+				</div>
+				<div class="col-md-4">
+				</div>
+				<div class="col-md-4 main-logo">
+					<a href="index.php" style="font-size: 35px;" target="_self"><img src="assets/img/newspaper logo.png" class="logo-zoom" style="width: 160px;border-radius: 10px;"></a>
+				</div>
+
+			</div>
+
+		</div>
+
+
+		<div class="mobile-menu mobile-hide" id="mobile-menu-btn">
+			<div class="bar1"></div>
+			<div class="bar2"></div>
+			<div class="bar3"></div>
+		</div>
+	</section>
+	<aside class="mobile-hide site-off">
+		<div class="mobile-container">
+			<div class="mobile-submenu-wrapper">
+
+			</div>
+		</div>
+
+	</aside>
 </header>

@@ -58,133 +58,29 @@ $book_categories = $obj->book_category_list();
             <?php endforeach ?>
         </section>
 
-        <!-- 
-        <section class="library">
-            <div class="container-fluid my-5">
-                <h1 class="tex-center fw-bold display-1 md-3"><span class="text-danger">NEW</span> books</h1>
-                <div class="row mt-5">
-                    <div class="owl-carousel owl-theme">
-                        <div class="item  md-4">
-                            <div class="card border-0 shadow">
-                                <img src="./assets/img/1-1582693.jpg" alt="" class="card-img-top">
-                                <div class="card-body">
-                                    <h4>book 1</h4>
-                                    <div class="card-footer">
-                                        <small class="text-muted">author Name</small>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item md-4">
-                            <div class="card border-0 shadow">
-                                <img src="./assets/img/63a311034c59b76e9a556e06.png" alt="" class="card-img-top">
-                                <div class="card-body">
-                                    <h4>book 2</h4>
-                                    <div class="card-footer">
-                                        <small class="text-muted">author Name</small>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item md-4">
-                            <div class="card border-0 shadow">
-                                <img src="./assets/img/63a2afd64c59b7555118567f.jpg" alt="" class="card-img-top">
-                                <div class="card-body">
-                                    <h4>book 3</h4>
-                                    <div class="card-footer">
-                                        <small class="text-muted">author Name</small>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item md-4">
-                            <div class="card border-0 shadow">
-                                <img src="./assets/img/1-1582708.jpeg" alt="" class="card-img-top">
-                                <div class="card-body">
-                                    <h4>book 4</h4>
-                                    <div class="card-footer">
-                                        <small class="text-muted">author Name</small>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="item md-4">
-                            <div class="card border-0 shadow">
-                                <img src="./assets/img/63a3a1a14c59b73c573b6ea8.jpg" alt="" class="card-img-top">
-                                <div class="card-body">
-                                    <h4>book 5</h4>
-                                    <div class="card-footer">
-                                        <small class="text-muted">author Name</small>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="item md-4">
-                            <div class="card border-0 shadow">
-                                <img src="./assets/img/news-logo-2.jpeg" alt="" class="card-img-top">
-                                <div class="card-body">
-                                    <h4>book 26</h4>
-                                    <div class="card-footer">
-                                        <small class="text-muted">author Name</small>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="item md-4">
-                            <div class="card border-0 shadow">
-                                <img src="./assets/img/72d731ce-261a-4aa3-812d-5b04428fc509_16x9_600x338.jpeg" alt="" class="card-img-top">
-                                <div class="card-body">
-                                    <h4>book 7</h4>
-                                    <div class="card-footer">
-                                        <small class="text-muted">author Name</small>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </section> -->
-
     </div>
 
     <footer class="footer-final">
         <div class="container">
-            <div class="row">
-                <div class="col-md-3">
-                    <div class="text-center">
-                        <a href="#">
-                            <i class="fa-brands fa-facebook-f"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="text-center">
-                        <a href="#">
-                            <i class="fa-brands fa-twitter"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="text-center">
-                        <a href="#">
-                            <i class="fa-brands fa-instagram"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="text-center">
-                        <a href="#">
-                            <i class="fa-solid fa-globe"></i>
-                        </a>
-                    </div>
-                </div>
+            <div class="footer-icon">
+                <a href="#">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+            </div>
+            <div class="footer-icon">
+                <a href="#">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+            </div>
+            <div class="footer-icon">
+                <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </div>
+            <div class="footer-icon">
+                <a href="#">
+                    <i class="fa-solid fa-globe"></i>
+                </a>
             </div>
         </div>
     </footer>

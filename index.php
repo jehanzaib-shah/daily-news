@@ -1,6 +1,6 @@
-<?php 
-	session_start();
- ?>
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html>
 <?php include('components/head.php'); ?>
@@ -1294,37 +1294,28 @@
 			</div>
 		</div>
 	</section>
+
 	<footer class="footer-final">
 		<div class="container">
-			<div class="row">
-				<div class="col-md-3">
-					<div class="text-center">
-						<a href="#">
-							<i class="fa-brands fa-facebook-f"></i>
-						</a>
-					</div>
-				</div>
-				<div class="col-md-3">
-					<div class="text-center">
-						<a href="#">
-							<i class="fa-brands fa-twitter"></i>
-						</a>
-					</div>
-				</div>
-				<div class="col-md-3">
-					<div class="text-center">
-						<a href="#">
-							<i class="fa-brands fa-instagram"></i>
-						</a>
-					</div>
-				</div>
-				<div class="col-md-3">
-					<div class="text-center">
-						<a href="#">
-							<i class="fa-solid fa-globe"></i>
-						</a>
-					</div>
-				</div>
+			<div class="footer-icon">
+				<a href="#">
+					<i class="fa-brands fa-facebook-f"></i>
+				</a>
+			</div>
+			<div class="footer-icon">
+				<a href="#">
+					<i class="fa-brands fa-twitter"></i>
+				</a>
+			</div>
+			<div class="footer-icon">
+				<a href="#">
+					<i class="fa-brands fa-instagram"></i>
+				</a>
+			</div>
+			<div class="footer-icon">
+				<a href="#">
+					<i class="fa-solid fa-globe"></i>
+				</a>
 			</div>
 		</div>
 	</footer>

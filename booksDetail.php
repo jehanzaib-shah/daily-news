@@ -50,40 +50,30 @@
 
     </div>
 
-    <footer class="footer-final">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3">
-                    <div class="text-center">
-                        <a href="#">
-                            <i class="fa-brands fa-facebook-f"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="text-center">
-                        <a href="#">
-                            <i class="fa-brands fa-twitter"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="text-center">
-                        <a href="#">
-                            <i class="fa-brands fa-instagram"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="text-center">
-                        <a href="#">
-                            <i class="fa-solid fa-globe"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
+	<footer class="footer-final">
+		<div class="container">
+			<div class="footer-icon">
+				<a href="#">
+					<i class="fa-brands fa-facebook-f"></i>
+				</a>
+			</div>
+			<div class="footer-icon">
+				<a href="#">
+					<i class="fa-brands fa-twitter"></i>
+				</a>
+			</div>
+			<div class="footer-icon">
+				<a href="#">
+					<i class="fa-brands fa-instagram"></i>
+				</a>
+			</div>
+			<div class="footer-icon">
+				<a href="#">
+					<i class="fa-solid fa-globe"></i>
+				</a>
+			</div>
+		</div>
+	</footer>
     <?php include('components/script.php') ?>
 </body>
 
